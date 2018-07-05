@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6B2CEB4E-D64F-4048-8EE8-F5155808B369}</ProjectGuid>
+    <ProjectGuid>{8CB9A755-523B-4120-B564-6AD70F816903}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -122,7 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Client\src\libs\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -188,26 +187,26 @@
     <Content Include="Client\index.html" />
     <Content Include="Client\manage\index.html" />
     <Content Include="Client\manage\static\css\app.85873a69abe58e3fc37a13d571ef59e2.css" />
-    <Content Include="Client\manage\static\js\0.55bf0f1d7cede1175c20.js" />
-    <Content Include="Client\manage\static\js\1.399df14619f00db6f4c1.js" />
-    <Content Include="Client\manage\static\js\10.6d908a6d945a44dc9998.js" />
-    <Content Include="Client\manage\static\js\11.a686bbb7444f34058f85.js" />
-    <Content Include="Client\manage\static\js\12.01fc67ec60c3ffc9fe7e.js" />
-    <Content Include="Client\manage\static\js\13.aa6854cab83e98d56ffa.js" />
-    <Content Include="Client\manage\static\js\14.cb2fe02474bf4b6474d8.js" />
-    <Content Include="Client\manage\static\js\15.153875b6d04daf0a3e65.js" />
-    <Content Include="Client\manage\static\js\16.a7382216ca99831590de.js" />
-    <Content Include="Client\manage\static\js\2.cd95674b24aa0a0570d0.js" />
-    <Content Include="Client\manage\static\js\3.f58ae97e894760d1ce07.js" />
-    <Content Include="Client\manage\static\js\4.703a3826128ebeae318f.js" />
-    <Content Include="Client\manage\static\js\5.eb7ca07345cefe1ac5b7.js" />
-    <Content Include="Client\manage\static\js\6.8bbaded124d075d5f7d2.js" />
-    <Content Include="Client\manage\static\js\7.7444df2a117ec018562d.js" />
-    <Content Include="Client\manage\static\js\8.8a2b3dc9d58c812c3dba.js" />
-    <Content Include="Client\manage\static\js\9.336186d177d09afb25d7.js" />
-    <Content Include="Client\manage\static\js\app.33c3fbb19d6c8cfdc024.js" />
-    <Content Include="Client\manage\static\js\manifest.c6ae6c46b0ead936ee1f.js" />
-    <Content Include="Client\manage\static\js\vendor.1479c3bc8ac12346b0f9.js" />
+    <Content Include="Client\manage\static\js\0.c3591e0cc32dc9c67aa9.js" />
+    <Content Include="Client\manage\static\js\1.177383fc70b81a1bf3e3.js" />
+    <Content Include="Client\manage\static\js\10.64c5f74ee9d4bd948824.js" />
+    <Content Include="Client\manage\static\js\11.4fb6c55abc6900a3c82e.js" />
+    <Content Include="Client\manage\static\js\12.612d5902ed752548341e.js" />
+    <Content Include="Client\manage\static\js\13.501e23458a33450b0c0e.js" />
+    <Content Include="Client\manage\static\js\14.689ee50eed49edbde8f9.js" />
+    <Content Include="Client\manage\static\js\15.8c1687e8ba9642bcad71.js" />
+    <Content Include="Client\manage\static\js\16.bc21dfb9de933f156bbb.js" />
+    <Content Include="Client\manage\static\js\2.7d9a5ba8dea2a844b1c7.js" />
+    <Content Include="Client\manage\static\js\3.c2cae0f57678e2379d16.js" />
+    <Content Include="Client\manage\static\js\4.58872b89032e6feb7185.js" />
+    <Content Include="Client\manage\static\js\5.8b127c5ea30a0129c67b.js" />
+    <Content Include="Client\manage\static\js\6.92bac28a529ede896523.js" />
+    <Content Include="Client\manage\static\js\7.b982398b7906512b6f0d.js" />
+    <Content Include="Client\manage\static\js\8.9560bf1d564fc8fb0139.js" />
+    <Content Include="Client\manage\static\js\9.21feb21f187659bd24e6.js" />
+    <Content Include="Client\manage\static\js\app.e0a31587e6a57da7a5c1.js" />
+    <Content Include="Client\manage\static\js\manifest.98d580640d0ac4eb9c89.js" />
+    <Content Include="Client\manage\static\js\vendor.22faa6a1913df07d3952.js" />
     <Content Include="Client\src\api\getData.js" />
     <Content Include="Client\src\assets\img\avator.jpg" />
     <Content Include="Client\src\assets\svg\password.svg" />
@@ -251,15 +250,16 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="Client\manage\static\fonts\element-icons.b02bdc1.ttf" />
     <Content Include="Client\.babelrc" />
     <Content Include="Client\.editorconfig" />
     <Content Include="Client\.eslintignore" />
     <Content Include="Client\COPYING" />
+    <Content Include="Client\manage\static\fonts\element-icons.b02bdc1.ttf" />
     <Content Include="Client\package.json" />
     <Content Include="Client\README.md" />
     <Content Include="Client\src\App.vue" />
     <Content Include="Client\src\components\headTop.vue" />
+    <Content Include="Client\src\components\tendency.vue" />
     <Content Include="Client\src\components\visitorPie.vue" />
     <Content Include="Client\src\page\addGoods.vue" />
     <Content Include="Client\src\page\addShop.vue" />
@@ -282,7 +282,6 @@
     <Content Include="Client\src\style\mixin.less" />
     <Content Include="Client\static\.gitkeep" />
     <Content Include="Client\test\unit\.eslintrc" />
-    <Content Include="Client\yarn.lock" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -330,7 +329,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>20412</DevelopmentServerPort>
+          <DevelopmentServerPort>28525</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:59101/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
