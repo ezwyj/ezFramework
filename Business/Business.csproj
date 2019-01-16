@@ -43,27 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\ValueItem.cs" />
-    <Compile Include="Entity\ValueSet.cs" />
     <Compile Include="Interface\IConfig.cs" />
     <Compile Include="Interface\ILog.cs" />
+    <Compile Include="Interface\IOrganization.cs" />
+    <Compile Include="Interface\IRight.cs" />
     <Compile Include="Interface\IValueSet.cs" />
+    <Compile Include="Model\Org\DepartmentModel.cs" />
+    <Compile Include="Model\Org\EmployeeModel.cs" />
+    <Compile Include="Model\Org\JobModel.cs" />
+    <Compile Include="Model\Org\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\ValueSetService.cs" />
+    <Compile Include="Service\OrganizationBusService.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Account\Account.csproj">
-      <Project>{28e0c83f-318a-4afa-9ac3-bb42fee1035d}</Project>
-      <Name>Account</Name>
-    </ProjectReference>
+    <Folder Include="Model\Comm\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{4551ba02-364a-4ec6-a73f-2c1e90b93763}</Project>
       <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Right\Right.csproj">
-      <Project>{f6457376-6736-4175-ba5b-bcca2774d6d1}</Project>
-      <Name>Right</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

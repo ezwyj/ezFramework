@@ -42,6 +42,10 @@
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PetaPoco, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\REF\PetaPoco.dll</HintPath>
+    </Reference>
     <Reference Include="StackExchange.Redis">
       <HintPath>..\REF\StackExchange.Redis.dll</HintPath>
     </Reference>
@@ -84,6 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExcelHelper.cs" />
     <Compile Include="InfoException.cs" />
     <Compile Include="RedisHelper.cs" />
     <Compile Include="Unity\ExceptionLoggingBehavior.cs" />
@@ -93,15 +98,10 @@
     <Compile Include="Serializer.cs" />
     <Compile Include="Unity\ServiceLocator.cs" />
     <Compile Include="Unity\UnityContainerHelp.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Right\Right.csproj">
-      <Project>{f6457376-6736-4175-ba5b-bcca2774d6d1}</Project>
-      <Name>Right</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

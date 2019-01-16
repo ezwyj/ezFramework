@@ -12,5 +12,9 @@ namespace Common
         {
 
         }
+        public InfoException(string message, params object[] args) : this(string.Format(message, args))
+        {
+
+        }
     }
 }

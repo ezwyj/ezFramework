@@ -8,5 +8,6 @@ namespace Business.Interface
 {
     public interface IValueSet
     {
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿using Account.Model.Organization;
+﻿using Business.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +9,11 @@ namespace Business.Interface
 {
     public interface ILog
     {
-        void WriteCfgLog<T>(Employee employee, string log, T oldObj, T newObj);
+        void WriteCfgLog<T>(EmployeeModel employee, string log, T oldObj, T newObj);
 
-        void WriteOperateLog(Employee employee, string log, int projectId);
+        void WriteOperateLog(EmployeeModel employee, string log);
+
+        void WriteErrorLog(string log);
 
     }
 }

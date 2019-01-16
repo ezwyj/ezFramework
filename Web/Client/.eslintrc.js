@@ -1,34 +1,43 @@
 module.exports = {
-    root: true,
-    parser: 'babel-eslint',
-    parserOptions: {
-        sourceType: 'module'
+	"root": true,
+    "parserOptions": {
+		"parser": 'babel-eslint',
+		"sourceType": "module"
     },
-    env: {
-        browser: true,
-        node: true
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
     },
-    extends: 'eslint:recommended',
-    // required to lint *.vue files
-    plugins: [
-        'html'
-    ],
-    // check if imports actually resolve
-    'settings': {
-        'import/resolver': {
-            'webpack': {
-                'config': 'build/webpack.base.conf.js'
-            }
-        }
-    },
-    // add your custom rules here
-    'rules': {
-        // allow paren-less arrow functions
-        'arrow-parens': 0,
-        // allow async-await
-        'generator-star-spacing': 0,
-        // allow debugger during development
-        'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-        "indent": ["error", "tab"]   
-    }
-}
+	"extends": ["eslint:recommended", "plugin:vue/essential"],
+	"plugins": ["vue"],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+		],
+		"linebreak-style": [ //换行风格
+			"error",
+			"windows"
+		],
+		"no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+		"no-console": process.env.NODE_ENV === "production" ? "error" : "off"
+	},
+	"globals": {
+		"__dirname": true,
+		"process": true,
+		"OP_CONFIG": true
+	}
+};
